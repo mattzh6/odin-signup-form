@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .create-account {
+    background-color: rgb(219, 219, 219);
+}
+
+.header, .create-account, .form-title {
+
+    padding-left: 18px;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.header {
+    padding-top: 70px;
+    padding-bottom: 24px;
+}
+
+.sign-up {
+    flex-direction: row;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.first-column, .second-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-title, .first-column, .second-column {
+   padding: 18px;
+}
