@@ -1,24 +1,21 @@
 body {
     margin: 0;
     padding: 0;
-    
+    background-color: rgb(245, 243, 243);
 }
 
-.container {
+.right-side {
     display: flex;
     flex-direction: column;
 }
 
-.header, .create-account {
-    background-color: rgb(219, 219, 219);
-}
-
-.header, .create-account, .form-title {
+.header,
+.form-title {
 
     padding-left: 18px;
     font-size: 24px;
     font-weight: bold;
-    
+
 }
 
 .header {
@@ -28,6 +25,10 @@ body {
 
 .sign-up {
     flex-direction: row;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    box-shadow:  0px 5px 5px rgb(189, 189, 189);
+    background-color: white;
 }
 
 .columns {
@@ -35,11 +36,27 @@ body {
     flex-direction: row;
 }
 
-.first-column, .second-column {
+.first-column,
+.second-column {
     display: flex;
     flex-direction: column;
+    padding-right: 30px;
 }
 
-.form-title, .first-column, .second-column {
-   padding: 18px;
+.form-title,
+.first-column,
+.second-column {
+    padding-left: 36px;
+    padding-top: 10px;
 }
+
+.first-column>label,
+.second-column>label {
+    margin-top: 10px;
+}
+
+/* .create-account {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
