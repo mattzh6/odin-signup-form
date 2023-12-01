@@ -88,3 +88,18 @@ body {
     text-wrap: wrap;
     width: 70%;
 }
+
+.container {
+    display: flex;
+}
+
+.left-side {
+    height: 100vh;
+}
+
+.side-view {
+    display: flex;
+    height: 100%;
+    object-fit: contain;
+    flex: 1;
+}
