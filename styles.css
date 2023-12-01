@@ -83,3 +83,8 @@ body {
     text-decoration: none;
     font-weight: bold;
 }
+
+.header > h3 {
+    text-wrap: wrap;
+    width: 70%;
+}
